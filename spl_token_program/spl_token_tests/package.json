@@ -1,0 +1,21 @@
+{
+  "name": "spl-token-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive tests for native SPL token program",
+  "type": "commonjs",
+  "scripts": {
+    "test": "ts-node src/test-token-program.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "borsh": "^0.7.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.1"
+  }
+}
