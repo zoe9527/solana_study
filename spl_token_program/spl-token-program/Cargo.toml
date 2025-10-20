@@ -8,8 +8,8 @@ crate-type = ["cdylib", "lib"]
 
 [dependencies]
 solana-program = "1.18.0"
-borsh = "0.10.3"
-borsh-derive = "0.10.3"
+borsh = "0.10"
+borsh-derive = "0.10"
 thiserror = "1.0.0"
 
 [features]

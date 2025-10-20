@@ -678,7 +678,7 @@ async function main() {
   console.log('========================================');
   
   // 从命令行参数获取程序ID，或使用默认值
-  const programId = process.argv[2] || '3yTtxVzA6eHBSh8Xdy8zKJS3zhxmARiTqMCEyZgoGsVe';
+  const programId = process.argv[2] || 'ByiUxkVUtZM8fHoVFM3wsWVmaxL43i81G8eAHWKbwBBu';
   
   console.log(`🔧 程序ID: ${programId}`);
   console.log('🌐 网络: Devnet');
