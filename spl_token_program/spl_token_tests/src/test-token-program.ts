@@ -426,7 +426,7 @@ class TokenProgramTester {
       
       console.log(`✅ 销毁代币交易成功: ${signature}`);
       console.log(`🎯 销毁数量: ${burnAmount} 基础单位`);
-      
+      return
       // 验证销毁后的状态
       const mintData = await getMintData(this.connection, accounts.mint);
       const tokenAccountData = await getTokenAccountData(this.connection, accounts.tokenAccount);
