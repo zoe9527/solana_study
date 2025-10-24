@@ -215,6 +215,7 @@ fn process_initialize_mint(
     // 初始化铸币账户
     let mut mint_data = mint_account.data.borrow_mut();
     let mint = Mint::new(decimals, mint_authority, Some(Pubkey::new_from_array([1;32])));
+    //let mint = Mint::new(decimals, mint_authority, freeze_authority);
     mint.serialize(&mut &mut mint_data[..])?;
     
     msg!("Mint initialized with authority: {}", mint_authority);
